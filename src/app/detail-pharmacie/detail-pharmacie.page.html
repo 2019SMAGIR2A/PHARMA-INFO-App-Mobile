@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{pharmacie.nom}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div style="margin:0 auto">
+    <img style="width: 40%;margin: 0 auto;text-align: center;display: block;" src="{{pharmacie?.image}}" alt="">
+  </div>
+<h4 class="ion-text-center">
+    {{pharmacie?.nom}}
+</h4>
+</ion-content>

@@ -1,5 +1,7 @@
 {
   "name": "pharma-info",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
